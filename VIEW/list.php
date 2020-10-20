@@ -17,7 +17,7 @@
                 <h6 class="m-0 font-weight-bold text-primary">All Cars</h6>
             </div>
             <div class="card-body">
-                <button class="btn btn-primary">Add Car</button>
+                <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#addModal">Add Car</button> 
                 <p></p>
                 <div class="table-responsive">
                     <table id="cars" name="cars" class="table table-striped table-bordered" style="width:100%" cellspacing="0" >
@@ -50,7 +50,7 @@
                             ?>
                         </tbody>
                     </table>
-                    <button class="btn btn-primary">Add Car</button> 
+                    <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#addModal">Add Car</button> 
                 </div>
             </div>          
         </div>
@@ -59,5 +59,6 @@
     <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="./../JS/own.js"></script>
+    <?php include('./../PHP/footer.php'); ?>
 </body>
 </html>
