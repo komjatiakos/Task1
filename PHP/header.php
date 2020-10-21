@@ -8,9 +8,6 @@
             <li class="nav-item">
                 <a href="./../VIEW/list.php" class="nav-link">Listázás</a>
             </li>
-            <li class="nav-item">
-                <a href="./../VIEW/add.php" class="nav-link">Hozzáadás</a>
-            </li>
         </ul>
     </div>
 </nav>
