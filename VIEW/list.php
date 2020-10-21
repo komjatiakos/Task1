@@ -43,7 +43,7 @@
                                 <td><?= $result['eletkor'] ?></td>
                                 <td><?= $result['szerviz_kezdete'] ?></td>
                                 <td><?= $result['szerviz_vege'] ?></td>
-                                <td> <button type="button" class='btn btn-danger' >Delete</button></td>
+                                <td> <button type="button" class='btn btn-danger' >Return</button></td>
                             </tr>
                             <?php
                                 endwhile; 
