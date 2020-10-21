@@ -16,8 +16,8 @@
                                 <label for="which_car">Which car:</label>
                                 <div class="col-sm-10">  
                                     <select class="form-control" id="which_car" name="which_car" required="true">
-                                        <option disabled="disabled" value=""> ~~~ CHOOSE ONE ~~~ </option>
-                                        <option selected="true" value="">first car "read from the db"</option>
+                                        <option disabled="disabled" selected="true" value=""> ~~~ CHOOSE ONE ~~~ </option>
+                                        <option  value="">first car "read from the db"</option>
                                         <option value="">second car "read from the db"</option>
                                         <option value="">third car "read from the db"</option>
                                     </select>

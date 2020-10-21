@@ -6,7 +6,7 @@
     <div class="collapse navbar-collapse" id="navbarMenu">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a href="./../VIEW/list.php" class="nav-link">Listázás</a>
+                <a href="./../VIEW/list.php" class="nav-link">Listing</a>
             </li>
         </ul>
     </div>
