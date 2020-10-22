@@ -57,3 +57,27 @@
         </div>
     </div>
 </div>
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-body">
+            <form method="post" action="./../PHP/ending.php">
+              <h3>End this car's service?</h3>
+                <div class="container">
+                    <div class="form-group">
+                      <!--  CODE-->
+                      <input type="hidden" name="update_id" id="update_id">
+                    </div>
+                    <div class="col-sm-offset-2 col-sm-10">
+                      <button type="submit" name="updatedata" class="btn btn-danger btn-user btn-block" >Sure!</button>
+                      <button class="btn btn-secondary btn-user btn-block" type="button" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

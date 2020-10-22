@@ -39,11 +39,11 @@
                                 <td><?= $result['id']?></td>
                                 <td><?= $result['tulajdonos'] ?></td>
                                 <td><?= $result['auto'] ?></td>
-                                <td><?= $result['garancialis'] ?></td>
-                                <td><?= $result['eletkor'] ?></td>
+                                <td><?php if ($result['garancialis'] ==0){echo 'No';}else{echo 'Yes';}?></td>
+                                <td><?= $result['eletkor']?></td>
                                 <td><?= $result['szerviz_kezdete'] ?></td>
                                 <td><?= $result['szerviz_vege'] ?></td>
-                                <td> <button type="button" class='btn btn-danger' >Return</button></td>
+                                <td> <button type="button" class='btn btn-danger updatebtn' >Return</button></td>
                             </tr>
                             <?php
                                 endwhile; 
